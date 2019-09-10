@@ -1,0 +1,195 @@
+html {
+    font-family: sans-serif;
+}
+
+h1, a {
+    color: white;
+
+}
+
+h2 {
+    color: rgb(255, 255, 255);
+}
+
+p {
+    color: white;
+    text-align: justify;
+}
+
+header {
+    background-color: #111111b4;
+    padding: 1px 0 0px 0;
+}
+
+article p {
+    padding-top: 20px;
+    color: white;
+    text-align: center;
+}
+
+header #title {
+    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+header #title h2 {
+    font-size: 200%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 300px;
+    text-align: right;
+    padding-right: 20px;
+
+}
+
+header h2, h2 {display: block;}
+
+header #logo {
+    float: left;
+    padding-right: 120px;
+}
+
+#logo, #info {display: inline-table;}
+
+article h1,h2 {display: block;}
+
+h1,h2 { display: inline; }
+
+#menu {
+    display: inline;
+    background-color: #252525b4;
+}
+
+#menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#menu li {
+    margin: 0;
+    padding: 5px;
+    display: inline;
+}
+
+footer {
+    padding: 10px 10px;
+    background-color: #000000e5;
+}
+
+footer h4 {
+    color: white;
+    text-align: left;
+
+}
+
+footer img, h4{
+    display: inherit;
+}
+
+body {
+    margin: 0 auto;
+    background-color:#030303b4;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.row {
+    padding-bottom: 100px;
+    float: center;
+    text-align: center;
+    position: center;
+    padding-top: 75px;
+}
+
+.row img {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+}
+
+.row h2 {
+    font-size: 400%;
+    font-family: monospace;
+}
+
+#menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    background-color: rgb(3, 3, 3);
+}
+
+#menu li {
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.active {
+    background-color: rgb(100, 100, 100);
+}
+
+.hidden {
+    display: none;
+}
+
+#form p {
+    padding-top: 20px;
+    color: black;
+    text-align: center;
+}
+
+
+footer p {
+    text-align: center;
+}
+
+form {
+    border-style: ridge;
+    border: black;
+}
+
+#searchForm, #addGame {
+    margin: 25px 5px 25px 5px;
+}
+
+#addGame li {
+    margin: 5px;
+    list-style: none;
+}
+
+#addPage h2 {
+    text-align: center;
+    padding-left: 650px;
+    font-size: 200%;
+    font-family: 'Courier New', Courier, monospace;
+    padding-top: 100px;
+}
+
+#content-wrap {
+    padding: 10px;
+}
+
+#about {
+      padding-top: 20px;
+      text-align: center;
+      float: center;
+}
